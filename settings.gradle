@@ -1,0 +1,8 @@
+include ':app'
+
+include ':app'
+include ':prussia'
+project(':prussia').projectDir = new File(settingsDir, '../prussia/prussia')
+include ':prussia:core'
+include ':prussia:common'
+include ':prussia:extras'
